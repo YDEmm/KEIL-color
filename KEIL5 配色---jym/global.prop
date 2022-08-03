@@ -1,0 +1,116 @@
+# properties for all file types
+indent.automatic=1
+virtual.space=0
+view.whitespace=0
+view.endofline=0
+code.page=936
+caretline.visible=1
+highlight.matchingbraces=1
+print.syntax.coloring=1
+use.tab.color=1
+create.backup.files=0
+auto.load.ext.modfiles=0
+save.prj.before.dbg=0
+save.files.before.dbg=0
+function.scanner.project=1
+function.scanner.files=1
+function.scanner.modules=1
+
+# properties for c/cpp files
+syntax.colouring.cpp=1
+use.tab.cpp=1
+tabsize.cpp=4
+line.margin.visible.cpp=1
+fold.cpp=1
+monospaced.font.cpp=1
+
+# properties for asm files
+syntax.colouring.asm=1
+use.tab.asm=1
+tabsize.asm=4
+line.margin.visible.asm=1
+monospaced.font.asm=1
+
+# properties for other files
+use.tabs=1
+tabsize=4
+line.margin.visible.txt=1
+monospaced.font.txt=1
+
+# setting for code completion and syntax check
+cc.autolist=1
+cc.highlightsyntax=1
+cc.showparameters=1
+cc.triggerlist=1
+cc.triggernumchars=3
+cc.enter.as.fillup=0
+
+# autosave for editor files
+autosave=0
+autosave.interval=5
+
+# vertical edge at right margin
+edge.mode=0
+edge.column=80
+
+
+# Specification for text selection and caret line
+selection.fore=#000000
+selection.back=#86C7F7
+caret.fore=#F1EBEE
+caret.back=#595959
+
+# Color for vertical edge
+edge.colour=#66FAFA
+
+# C/C++ Editor files
+template.cpp="#define","#define ";"#if","#if|\r\n\r\n\r\n#elif|\r\n\r\n\r\n#endif";\\
+    "#ifndef","#ifndef|\r\n\r\n#endif";"#include","#include ";\\
+    "/************/","/*************************************\r\n函数功能：\r\n函数参数：\r\n函数返回值：\r\n硬件接口：\r\n\r\n*************************************/";\\
+    "Header","// Header:\r\n// File Name: |\r\n// Author:\r\n// Date:\r\n";\\
+    "continue","continue;";"do","do\r\n{\r\n\t// TODO: enter the block content here\r\n\t\r\n\t|\r\n} while ();\r\n";\\
+    "enum","enum |\r\n{\r\n\t\r\n};\r\n";"for","for(|;;)\r\n{\r\n}";\\
+    "fpointer_type","typedef int (* |F)();\r\n";"function","void function(|)\r\n{\r\n\r\n}\r\n";\\
+    "if","if (|)";"ifelse","if (|)\r\n{\r\n}\r\nelse\r\n{\r\n}";\\
+    "struct","struct | \r\n{\r\n\r\n};\r\n";"switch","switch (|)\r\n{\r\n\tcase:\r\n\t\tbreak;\r\n\tcase:\r\n\t\tbreak;\r\n\tdefault:\r\n\t\tbreak;\r\n}";\\
+    "void","void | ();\r\n";"while","while (|)\r\n{\r\n}";\\
+    
+font.monospace.cpp=Lucida Sans Typewriter
+style.cpp.32=font:Lucida Sans Typewriter,size:12,fore:#FF6C6C,back:#393939
+style.cpp.4=font:Lucida Sans Typewriter,size:12,fore:#FF6C6C,back:#393939
+style.cpp.10=font:Lucida Sans Typewriter,size:12,fore:#97ECD9,back:#393939
+style.cpp.1=font:Lucida Sans Typewriter,size:12,fore:#ABD9FE,back:#393939
+style.cpp.2=font:Lucida Sans Typewriter,size:12,fore:#A8FDBD,back:#393939
+style.cpp.5=font:Lucida Sans Typewriter,size:12,fore:#F9738A,back:#393939
+style.cpp.6=font:Lucida Sans Typewriter,size:12,fore:#D2A4EE,back:#393939
+style.cpp.11=font:Lucida Sans Typewriter,size:12,fore:#F3C267,back:#393939
+style.cpp.9=font:Lucida Sans Typewriter,size:12,fore:#9ECEFA,back:#393939
+style.cpp.7=font:Lucida Sans Typewriter,size:12,fore:#F47171,back:#393939
+style.cpp.34=font:Lucida Sans Typewriter,size:12,fore:#D3B8E2,back:#595959,bold
+style.cpp.35=font:Lucida Sans Typewriter,size:12,fore:#70FCC8,back:#393939
+style.cpp.16=font:Lucida Sans Typewriter,size:12,fore:#F9738A,back:#393939
+style.cpp.12=font:Lucida Sans Typewriter,size:12,fore:#70FCC8,back:#393939
+
+
+# Asm Editor files
+font.monospace.asm=Courier New
+style.asm.32=font:Courier New,size:10,fore:#FFFFFF,back:#393939
+style.asm.1=font:Courier New,size:10,fore:#DBDBDB,back:#393939
+style.asm.2=font:Courier New,size:10,fore:#FF6C6C,back:#393939
+style.asm.3=font:Courier New,size:10,fore:#FF6C6C,back:#393939
+style.asm.4=font:Courier New,size:10,fore:#FF6C6C,back:#393939
+style.asm.5=font:Courier New,size:10,fore:#FFFFFF,back:#393939
+style.asm.6=font:Courier New,size:10,fore:#6DE9FE,back:#393939
+style.asm.7=font:Courier New,size:10,fore:#AE8EDD,back:#393939
+style.asm.9=font:Courier New,size:10,fore:#6DE9FE,back:#393939
+style.asm.10=font:Courier New,size:10,fore:#6DE9FE,back:#393939
+style.asm.11=font:Courier New,size:10,fore:#AE8EDD,back:#393939
+style.asm.12=font:Courier New,size:10,fore:#AE8EDD,back:#393939
+style.asm.8=font:Courier New,size:10,fore:#46AA03,back:#393939
+
+
+# Editor Text files
+font.monospace.txt=Courier New
+style.txt.32=font:Verdana,size:10,fore:#000000,back:#FFFFFF
+
+
